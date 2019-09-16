@@ -18,10 +18,6 @@ describe('Jokes Router', () => {
         })
     })
 
-    it('should return an array of objects -- with a token', () => {
-
-    })
-
     it('should return status 401 without token', () => {
         const expectedCode = 401
         let response
